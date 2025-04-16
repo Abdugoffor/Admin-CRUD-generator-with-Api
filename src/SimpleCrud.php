@@ -148,7 +148,7 @@ class SimpleCrud extends Command
                 <div class="sidebar-section sidebar-user my-1">
                     <div class="sidebar-section-body">
                         <div class="media">
-                            <a href="{{ route('home', [], false) }}" target="_blank" class="mr-3">
+                            <a href="/" target="_blank" class="mr-3">
                                 <img src="https://cdn-icons-png.flaticon.com/512/8664/8664801.png" class="rounded-circle" alt="">
                             </a>
                             <div class="media-body">
@@ -595,7 +595,7 @@ EOT;
                     $options .= "<option value=\"{$value}\"{$selected}>{$value}</option>\n";
                 }
                 $formFields .= <<<EOT
-                                <label class="col-form-label col-lg-2">{$fieldFormatted}</label>
+                                <label class="form-label">{$fieldFormatted}</label>
                                 <select name="{$field}" class="form-control">
                                     <option value="">Select {$fieldFormatted}</option>
 {$options}
@@ -626,7 +626,7 @@ EOT;
                     continue;
                 }
                 $formFields .= <<<EOT
-                                <label class="col-form-label col-lg-2">{$fieldFormatted}</label>
+                                <label class="form-label">{$fieldFormatted}</label>
                                 <input type="{$inputType}" class="form-control" name="{$field}" value="{{ old('{$field}') }}" placeholder="{$fieldFormatted}">
                                 @error('{$field}')
                                     <p style="color: red;">{{ \$message }}</p>
@@ -679,7 +679,7 @@ EOT;
                     $options .= "<option value=\"{$value}\" {{ old('{$field}', \$model->{$field}) == '{$value}' ? 'selected' : '' }}>{$value}</option>\n";
                 }
                 $editFormFields .= <<<EOT
-                                <label class="col-form-label col-lg-2">{$fieldFormatted}</label>
+                                <label class="form-label">{$fieldFormatted}</label>
                                 <select name="{$field}" class="form-control">
                                     <option value="">Select {$fieldFormatted}</option>
 {$options}
