@@ -409,7 +409,7 @@ class {$name}Controller extends Controller
     {
         \$query = {$name}::query();
 {$searchLogic}
-        \$models = \$query->paginate(10);
+        \$models = \$query->paginate(10)->withQueryString();
         return view('{$pluralName}.index', ['models' => \$models]);
     }
 
