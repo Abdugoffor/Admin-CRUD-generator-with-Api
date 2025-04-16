@@ -56,10 +56,6 @@ php artisan make:crud Post
 ```bash
 php artisan make:simple-crud Post
 ```
-#### Api uchun
-```bash
-php artisan make:api-crud Post
-```
 #### 5. API CRUD Kodini Avtomatik Yaratish
 
 ```bash
