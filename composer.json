@@ -25,6 +25,12 @@
             ]
         }
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./admin-crud-generator-with-api"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
