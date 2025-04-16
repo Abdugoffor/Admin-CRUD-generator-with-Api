@@ -7,9 +7,9 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Str;
 
-class Crud extends Command
+class SimpleCrud extends Command
 {
-    protected $signature   = 'make:crud {name}';
+    protected $signature   = 'make:simple-crud {name}';
     protected $description = 'Generate CRUD based on an existing model with controller, requests, resource, and views extending layouts.admin';
 
     protected $enumFields = [];
