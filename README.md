@@ -52,10 +52,21 @@ public $enumValues = [
 ```bash
 php artisan make:crud Post
 ```
+##### Aftorizatsa uchun
+
+```bash
+php artisan make:auth
+```
+
 #### 5. API CRUD Kodini Avtomatik Yaratish
 
 ```bash
 php artisan make:api-crud Post
+```
+##### Aftorizatsa Api uchun
+
+```bash
+php artisan make:api-auth
 ```
 #### 5. Laravelni Ishga Tushirish
 ```bash
