@@ -27,8 +27,8 @@
     },
     "repositories": [
         {
-            "type": "path",
-            "url": "./admin-crud-generator-with-api"
+            "type": "vcs",
+            "url": "https://github.com/Abdugoffor/Admin-CRUD-generator-with-Api"
         }
     ],
     "minimum-stability": "dev",
