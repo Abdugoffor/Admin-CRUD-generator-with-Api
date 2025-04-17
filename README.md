@@ -47,14 +47,10 @@ public $enumValues = [
     ],
 ];
 ```
-#### 4. CRUD Kodini Avtomatik Yaratish
+#### 4.Admin uchun CRUD Kodini Avtomatik Yaratish
 
 ```bash
 php artisan make:crud Post
-```
-#### Admin uchun
-```bash
-php artisan make:simple-crud Post
 ```
 #### 5. API CRUD Kodini Avtomatik Yaratish
 
@@ -65,5 +61,5 @@ php artisan make:api-crud Post
 ```bash
 php artisan serve
 ```
-### http://127.0.0.1:8000/posts sahifasiga tashrif buyurib, CRUD tizimingizni ishlatishingiz mumkin
+### example.com/posts sahifasiga tashrif buyurib, CRUD tizimingizni ishlatishingiz mumkin
 
