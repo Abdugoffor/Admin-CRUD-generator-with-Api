@@ -9,7 +9,7 @@ class CrudGeneratorServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->commands([
-                SimpleCrud::class,
+                Crud::class,
                 ApiCrud::class
             ]);
         }
