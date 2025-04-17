@@ -1,4 +1,4 @@
-﻿# Admin-CRUD-generator-with-Api
+﻿# Admin uchun CRUD, Auth generator
 
 #### Laravel CRUD Generator 
 
