@@ -1,4 +1,4 @@
-﻿# Admin uchun CRUD, Auth generator
+﻿# Laravel Generator (CRUD + Auth + Roles Permission + Template)
 
 #### Laravel CRUD Generator 
 

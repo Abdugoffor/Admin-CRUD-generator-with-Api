@@ -12,7 +12,8 @@ class CrudGeneratorServiceProvider extends ServiceProvider
                 Crud::class,
                 ApiCrud::class,
                 MakeAuthCommand::class,
-                MakeApiAuthCommand::class
+                MakeApiAuthCommand::class,
+                SetupRolePermission::class
             ]);
         }
     }
