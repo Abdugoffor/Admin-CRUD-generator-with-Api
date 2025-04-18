@@ -79,8 +79,9 @@ class Crud extends Command
     <script src="/backend/global_assets/js/main/jquery.min.js"></script>
     <script src="/backend/global_assets/js/main/bootstrap.bundle.min.js"></script>
     <!-- /core JS files -->
-
+    <script src="/backend/global_assets/js/plugins/forms/selects/select2.min.js"></script>
     <script src="/backend/assets/js/app.js"></script>
+    <script src="/backend/global_assets/js/demo_pages/form_select2.js"></script>
 </head>
 <body>
     <!-- Main navbar -->
